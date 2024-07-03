@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Sora', sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(104, 71, 9), rgb(255, 227, 150));
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(32, 1, 61, 0.377) 5px 5px 15px;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(132, 0, 255);
+    text-align: center;
+    /*text-shadow: black 1px 1px 3px; - muito feio kkj*/
+}
+
+h2 {
+    color: rgb(188, 117, 255);
+}
+
+p {
+    text-align: justify;
+}
