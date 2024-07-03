@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Sora', sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:visited { /*quando ja foi acessado*/
+            color: darkred;
+        }
+        
+        a:hover { /*quando passa em cima*/
+            color: blueviolet;
+        }
+
+        a:active { /*quando clica*/
+            color: yellow;
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+            padding: 32px;
+        }
+
+        /* SELETORES PERSONALIZADOS
+           # = id
+           . = class
+           : = pseudo-class
+           :: = pseudo-element
+           > = clildren (filho)
+        */
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://youtube.com">Link 01</a></li>
+        <li><a href="https://instagram.com">Link 02</a></li>
+        <li><a href="https://twitch.com">Link 03</a></li>
+    </ul>
+</body>
+</html>

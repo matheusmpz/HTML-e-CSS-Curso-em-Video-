@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        
+        * {
+            font-family: 'Poppins';
+        }
+
+        h1 {
+            background-color: lightgray;
+            height: 200px;
+            width: 200px;
+            
+            border-width: 5px;
+            border-style: solid;
+            border-color: darkgray;
+            /* border: 5px solid darkgray; */
+            
+            padding: 10px; /*sentido horário cima,dire,baixo, esquer.*/
+            
+             margin: 30px auto 30px auto; /*igual ao padding, auto = centralizar*/
+
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: black;
+            /* outline: 10px dashed black; */
+        }
+
+        a {
+            border-width: 5px;
+            border-style: dotted;
+            border-color: brown;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a></p>
+</body>
+</html>
