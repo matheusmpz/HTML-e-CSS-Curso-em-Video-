@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 98vh;
-            background-color: #2f2f2f;
+            /* background-color: #2f2f2f;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+            /* Shorthand - background 
+                color > image > position > repeat > [size] > attachment 
+            */
+            background:  #2f2f2f url(imagens/wallpaper002.jpg) center top/cover no-repeat fixed;
         }
         main {
             background-color: #eeeeee;
@@ -25,6 +30,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quae, labore, sint maiores iure ipsa doloremque aspernatur perspiciatis tempore quaerat omnis laudantium! Delectus quibusdam mollitia quisquam minima. Minus, expedita debitis?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quae, labore, sint maiores iure ipsa doloremque aspernatur perspiciatis tempore quaerat omnis laudantium! Delectus quibusdam mollitia quisquam minima. Minus, expedita debitis?</p>
     </main>
 </body>
